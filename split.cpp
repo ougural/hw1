@@ -20,6 +20,7 @@ int ctr = 0;
 
 /* Add a prototype for a helper function here if you need */
 
+
 void split(Node*& in, Node*& odds, Node*& evens)
 {
   /* Add code here */
@@ -27,12 +28,13 @@ void split(Node*& in, Node*& odds, Node*& evens)
   //   if(in->value % 2 == 0){
   //     evens = in;
   //     delete in;
-  //     return split(evens, odds, evens);
+  //     return;
   //   }
   //   else{
+  //     cout <<'o'<<endl;
   //     odds = in;
   //     delete in;
-  //     return split(odds, odds, evens);
+  //     return;
   //   }
   // }
   if(in == nullptr){

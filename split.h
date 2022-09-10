@@ -6,7 +6,6 @@ struct Node
 {
   int value;
   Node* next;
-
   /**
    * Initializing constructor
    */
